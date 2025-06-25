@@ -6,6 +6,7 @@ import HeroSection from '../components/HeroSection';
 import SkillsSection from '../components/SkillsSection';
 import ProjectsSection from '../components/ProjectsSection';
 import ExperienceSection from '../components/ExperienceSection';
+import Footer from '../components/Footer';
 import AdminPanel from '../components/AdminPanel';
 import { usePortfolio } from '../contexts/PortfolioContext';
 
@@ -19,6 +20,7 @@ const PortfolioContent = () => {
       <SkillsSection />
       <ProjectsSection />
       <ExperienceSection />
+      <Footer />
       {isAdmin && <AdminPanel />}
     </div>
   );
